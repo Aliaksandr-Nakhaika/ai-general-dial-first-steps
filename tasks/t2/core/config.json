@@ -4,7 +4,7 @@
     "echo": {
       "displayName": "My Echo App",
       "description": "Simple application that repeats user's message",
-      "endpoint": "http://echo:5000/openai/deployments/echo/chat/completions"
+      "endpoint": "http://host.docker.internal:5022/openai/deployments/echo/chat/completions"
     }
   },
   "models": {},

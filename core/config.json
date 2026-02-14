@@ -1,11 +1,13 @@
 {
   "routes": {},
   "applications": {
-
+    "echo": {
+      "displayName": "My Echo App",
+      "description": "Simple application that repeats user's message",
+      "endpoint": "http://host.docker.internal:5022/openai/deployments/echo/chat/completions"
+    }
   },
-  "models": {
-
-  },
+  "models": {},
   "keys": {
     "dial_api_key": {
       "project": "TEST-PROJECT",
@@ -14,9 +16,7 @@
   },
   "roles": {
     "default": {
-      "limits": {
-
-      }
+      "limits": {}
     }
   }
 }
